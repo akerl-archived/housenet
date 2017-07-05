@@ -1,4 +1,4 @@
-server configs
+server bios
 ==============
 
 BIOS settings
