@@ -41,6 +41,7 @@ RAID config
 select all drives
 create unit
 raid 10
+advanced -> boot volume -> 20
 f8
 y
 
