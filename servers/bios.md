@@ -25,15 +25,15 @@ BIOS settings
 * ipmi
     * lan
         * static
-            * 10.0.2.x
+            * 10.0.1.x
             * 255.0.0.0
             * 10.0.0.1
 * boot device prio
     * removable drive
     * usb
     * cd
-    * 3ware
     * network
+    * disabled
 
 RAID config
 -----------
@@ -41,7 +41,6 @@ RAID config
 select all drives
 create unit
 raid 10
-advanced -> boot volume -> 20
 f8
 y
 
