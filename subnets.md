@@ -10,7 +10,6 @@ Static IPs for network management devices
 
 * 10.0.0.1 - edge (rt-ac68u router)
 * 10.0.0.2 - switch1 (cisco 2960g)
-* 10.0.0.10 - jump (raspberry pi)
 * 10.0.0.100 - infra (eee netbook)
 
 ## 10.0.1.0/24
@@ -54,6 +53,11 @@ Static assignments for hosts
 ## 10.1.64.0/18
 ## 10.1.128.0/17
 ## 10.2.0.0/24
+
+DMZ services
+
+* 10.2.0.1 - jump (raspberry pi)
+
 ## 10.2.1.0/24
 ## 10.2.2.0/23
 ## 10.2.4.0/22
