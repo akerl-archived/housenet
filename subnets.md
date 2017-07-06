@@ -21,8 +21,8 @@ Static assignments for host IPMI
 * 10.0.1.2 - bravo
 * 10.0.1.3 - charlie
 * 10.0.1.4 - delta
-* 10.0.1.5 - foxtrot
-* 10.0.1.6 - golf
+* 10.0.1.5 - echo
+* 10.0.1.6 - foxtrot
 
 ## 10.0.2.0/23
 ## 10.0.4.0/22
@@ -39,12 +39,12 @@ Static leases for normal devices
 
 Static assignments for hosts
 
-* 10.1.1.1 - rack1
-* 10.1.1.2 - rack2
-* 10.1.1.3 - rack3
-* 10.1.1.4 - rack4
-* 10.1.1.5 - rack5
-* 10.1.1.6 - rack6
+* 10.1.1.1 - alfa
+* 10.1.1.2 - bravo
+* 10.1.1.3 - charlie
+* 10.1.1.4 - delta
+* 10.1.1.5 - echo
+* 10.1.1.6 - foxtrot
 
 ## 10.1.2.0/23
 ## 10.1.4.0/22
