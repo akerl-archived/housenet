@@ -20,3 +20,13 @@ Ubuntu LTS server i386 ISO
 11. Install GRUB to MBR on /dev/sda
 
 Reboot
+
+## Puppet setup
+
+Log in as root and do the following:
+
+1. `apt install ruby`
+1. `mkdir -p /opt/halyard/repo`
+1. `git clone --recursive git://github.com/halyard/goblin /opt/halyard/repo`
+1. `/opt/halyard/repo/meta/puppet-run`
+
