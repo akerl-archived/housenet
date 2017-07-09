@@ -2,7 +2,7 @@
 
 This list was generated using [subnet_slicer](https://github.com/akerl/scripts/blob/master/subnet_slicer).
 
-To update it, [click here](http://www.davidc.net/sites/default/subnets/subnets.html?network=10.0.0.0&mask=8&division=97.ffff00ef10cf7000455555550) to re-open the existing topology, modify it, and then re-run subnet_slicer.rb with the new URL
+To update it, [click here](http://www.davidc.net/sites/default/subnets/subnets.html?network=10.0.0.0&mask=8&division=113.ffff00ef10cf700ff000455555550) to re-open the existing topology, modify it, and then re-run subnet_slicer.rb with the new URL
 
 ## 10.0.0.0/24
 
@@ -66,7 +66,18 @@ DMZ services
 ## 10.2.32.0/19
 ## 10.2.64.0/18
 ## 10.2.128.0/17
-## 10.3.0.0/16
+## 10.3.0.0/24
+
+IoT device static leases
+
+## 10.3.1.0/24
+## 10.3.2.0/23
+## 10.3.4.0/22
+## 10.3.8.0/21
+## 10.3.16.0/20
+## 10.3.32.0/19
+## 10.3.64.0/18
+## 10.3.128.0/17
 ## 10.4.0.0/14
 ## 10.8.0.0/13
 ## 10.16.0.0/12
