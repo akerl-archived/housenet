@@ -87,6 +87,9 @@ DMZ services
 ## 10.255.248.0/22
 ## 10.255.252.0/23
 ## 10.255.254.0/24
+
+Known Kelly devices static leases
+
 ## 10.255.255.0/24
 
 DHCP for random hosts
