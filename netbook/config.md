@@ -25,4 +25,5 @@ Reboot
 
 Log in as root and do the following:
 
-`curl -sLo kickstart https://git.io/goblin && bash kickstart`
+1. `curl -sLo kickstart https://git.io/goblin && bash kickstart`
+2. `apt install linux-generic-hwe-16.04`
