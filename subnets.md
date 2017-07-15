@@ -2,87 +2,81 @@
 
 This list was generated using [subnet_slicer](https://github.com/akerl/scripts/blob/master/subnet_slicer).
 
-To update it, [click here](http://www.davidc.net/sites/default/subnets/subnets.html?network=10.0.0.0&mask=8&division=113.ffff00ef10cf700ff000455555550) to re-open the existing topology, modify it, and then re-run subnet_slicer.rb with the new URL
+To update it, [click here](http://www.davidc.net/sites/default/subnets/subnets.html?network=10.0.0.0&mask=8&division=55.ff4628e5605551) to re-open the existing topology, modify it, and then re-run subnet_slicer.rb with the new URL
 
-## 10.0.0.0/24
+## 10.0.0.0/16
 
-Static IPs for network management devices
+* 10.0.0.1 - edge - unifi SG
+* 10.0.0.2 - switch1 - cisco 2960G
+* 10.0.0.3 - wap1 - unifi ap ac pro
 
-* 10.0.0.1 - edge (rt-ac68u router)
-* 10.0.0.2 - switch1 (cisco 2960g)
-* 10.0.0.100 - infra (eee netbook)
+## 10.1.0.0/16
 
-## 10.0.1.0/24
+* 10.1.0.0 - infra - rpi3
 
-Static assignments for host IPMI
+## 10.2.0.0/16
 
-* 10.0.1.1 - alfa
-* 10.0.1.2 - bravo
-* 10.0.1.3 - charlie
-* 10.0.1.4 - delta
-* 10.0.1.5 - echo
-* 10.0.1.6 - foxtrot
+* 10.2.0.1 - alpa-ipmi
+* 10.2.0.2 - bravo-ipmi
+* 10.2.0.3 - charlie-ipmi
+* 10.2.0.4 - delta-ipmi
+* 10.2.0.5 - echo-ipmi
+* 10.2.0.6 - foxtrot-ipmi
 
-## 10.0.2.0/23
-## 10.0.4.0/22
-## 10.0.8.0/21
-## 10.0.16.0/20
-## 10.0.32.0/19
-## 10.0.64.0/18
-## 10.0.128.0/17
-## 10.1.0.0/24
+## 10.3.0.0/16
 
-Static leases for normal devices
+* 10.3.0.1 - alpa
+* 10.3.0.2 - bravo
+* 10.3.0.3 - charlie
+* 10.3.0.4 - delta
+* 10.3.0.5 - echo
+* 10.3.0.6 - foxtrot
 
-## 10.1.1.0/24
+## 10.4.0.0/16
 
-Static assignments for hosts
+* 10.4.0.1 - akerl-mbr
+* 10.4.0.2 - akerl-mba
+* 10.4.0.3 - akerl-chrome
+* 10.4.0.4 - akerl-iphone
 
-* 10.1.1.1 - alfa
-* 10.1.1.2 - bravo
-* 10.1.1.3 - charlie
-* 10.1.1.4 - delta
-* 10.1.1.5 - echo
-* 10.1.1.6 - foxtrot
+## 10.5.0.0/16
 
-## 10.1.2.0/23
-## 10.1.4.0/22
-## 10.1.8.0/21
-## 10.1.16.0/20
-## 10.1.32.0/19
-## 10.1.64.0/18
-## 10.1.128.0/17
-## 10.2.0.0/24
+* 10.5.0.1 - kelly-mba
+* 10.5.0.2 - kelly-iphone
 
-DMZ services
+## 10.6.0.0/16
 
-* 10.2.0.1 - jump (raspberry pi)
+* 10.6.0.1 - august
+* 10.6.0.2 - harmony
+* 10.6.0.3 - dot-livingroom
+* 10.6.0.4 - dot-bedroom
+* 10.6.0.5 - chromcast-ultra
 
-## 10.2.1.0/24
-## 10.2.2.0/23
-## 10.2.4.0/22
-## 10.2.8.0/21
-## 10.2.16.0/20
-## 10.2.32.0/19
-## 10.2.64.0/18
-## 10.2.128.0/17
-## 10.3.0.0/24
+## 10.7.0.0/16
 
-IoT device static leases
+* 10.7.0.1 - ps4
+* 10.7.0.2 - xbox360
+* 10.7.0.3 - wiiu
+* 10.7.0.4 - wii
 
-## 10.3.1.0/24
-## 10.3.2.0/23
-## 10.3.4.0/22
-## 10.3.8.0/21
-## 10.3.16.0/20
-## 10.3.32.0/19
-## 10.3.64.0/18
-## 10.3.128.0/17
-## 10.4.0.0/14
 ## 10.8.0.0/13
 ## 10.16.0.0/12
 ## 10.32.0.0/11
-## 10.64.0.0/10
+## 10.64.0.0/11
+## 10.96.0.0/15
+## 10.98.0.0/16
+## 10.99.0.0/16
+
+* DHCP range
+
+## 10.100.0.0/16
+
+* 10.100.0.1 - jump - rpi
+
+## 10.101.0.0/16
+## 10.102.0.0/15
+## 10.104.0.0/13
+## 10.112.0.0/12
 ## 10.128.0.0/10
 ## 10.192.0.0/11
 ## 10.224.0.0/12
@@ -90,17 +84,10 @@ IoT device static leases
 ## 10.248.0.0/14
 ## 10.252.0.0/15
 ## 10.254.0.0/16
-## 10.255.0.0/17
-## 10.255.128.0/18
-## 10.255.192.0/19
-## 10.255.224.0/20
-## 10.255.240.0/21
-## 10.255.248.0/22
-## 10.255.252.0/23
-## 10.255.254.0/24
 
-Known Kelly devices static leases
+* 10.254.0.1 - laker-mbp
 
-## 10.255.255.0/24
+## 10.255.0.0/16
 
-DHCP for random hosts
+* Guest wifi
+
