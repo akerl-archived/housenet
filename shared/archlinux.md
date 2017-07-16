@@ -45,7 +45,6 @@ passwd # set temporary root password and remember it
 pacman -S --noconfirm grub openssh
 systemctl enable dhcpcd
 systemctl enable sshd
-systemctl disable systemd-firstboot
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
