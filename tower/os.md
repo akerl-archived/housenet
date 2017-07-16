@@ -1,4 +1,4 @@
-tower bootstrap
+tower os
 ===========
 
 ## Install media
@@ -53,6 +53,10 @@ passwd # set a good one
 pacman -S --noconfirm grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
+systemctl enable dhcpcd
+pacman -S --noconfirm openssh
+systemctl enable sshd
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 ```
 
 ### Finish up
