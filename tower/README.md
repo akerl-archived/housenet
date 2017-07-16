@@ -1,8 +1,7 @@
-server bios
-==============
+tower config
+============
 
-BIOS settings
--------------
+## BIOS
 
 * defaults
 * date
@@ -26,4 +25,12 @@ BIOS settings
         * CD
         * SATA
         * USB
+
+## OS
+
+Refer to [the Archlinux OS setup doc](../shared/archlinux.md)
+
+## Config management
+
+Refer to [the goblin setup doc](../shared/goblin.md)
 

@@ -1,9 +1,9 @@
-tower os
-===========
+archlinux setup
+===============
 
 ## Install media
 
-Archlinux latest ISO
+[Archlinux latest ISO](https://www.archlinux.org/download/)
 
 ## Install steps
 
@@ -41,24 +41,17 @@ arch-chroot /mnt
 Inside your new chroot shell, run:
 
 ```
-ln -sfv /usr/share/zoneinfo/UTC /etc/localtime
-hwclock --systohc
-echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
-locale-gen
-echo "LANG=en_US.UTF-8" > /etc/locale.conf
-echo HOSTNAME > /etc/hostname
-echo "127.0.0.1 HOSTNAME.DOMAIN HOSTNAME" >> /etc/hosts
-pacman -S --noconfirm vim-minimal
-passwd # set a good one
-pacman -S --noconfirm grub
+passwd # set temporary root password and remember it
+pacman -S --noconfirm grub openssh
+systemctl enable dhcpcd
+systemctl enable sshd
+systemctl disable systemd-firstboot
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
-systemctl enable dhcpcd
-pacman -S --noconfirm openssh
-systemctl enable sshd
-echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 ```
 
 ### Finish up
 
-Now reboot
+Exit the arch-chroot shell with Ctrl-D and reboot
+

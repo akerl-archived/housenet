@@ -1,8 +1,7 @@
-server bios
-==============
+server config
+=============
 
-BIOS settings
--------------
+## BIOS
 
 * optimal defaults
 * date
@@ -35,12 +34,23 @@ BIOS settings
     * network
     * disabled
 
-RAID config
------------
+## RAID
 
 select all drives
 create unit
 raid 10
 f8
 y
+
+## IPMI
+
+This section is only necessary if you've lost the IPMI ADMIN password
+
+Boot from Archlinux install and run the following:
+
+```
+pacman -S ipmitool
+modprobe ipmi_si
+ipmitool user set password 2  # enter a strong password
+```
 
