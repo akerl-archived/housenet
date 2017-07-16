@@ -42,7 +42,7 @@ Inside your new chroot shell, run:
 
 ```
 passwd # set temporary root password and remember it
-pacman -S --noconfirm grub openssh
+pacman -S --noconfirm grub openssh net-tools
 systemctl enable dhcpcd
 systemctl enable sshd
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
