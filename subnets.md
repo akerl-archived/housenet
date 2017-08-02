@@ -11,6 +11,7 @@ VLAN 1 / untagged
 * 10.0.0.1 - edge - unifi SG
 * 10.0.0.2 - switch1 - cisco 2960G
 * 10.0.0.3 - wap1 - unifi ap ac pro
+* 10.0.0.10 - controller - tower
 
 ## 10.0.1.0/24
 
@@ -19,11 +20,6 @@ VLAN 2
 * 10.0.1.2 - infra - rpi3
 
 ## 10.0.2.0/24
-
-VLAN 3
-
-* 10.0.2.2 - controller - tower
-
 ## 10.0.3.0/24
 
 VLAN 4
@@ -112,19 +108,19 @@ VLAN 99
 ## 10.252.0.0/15
 ## 10.254.0.0/24
 
-VLAN 10
+VLAN 100
 
 * DHCP Wifi
 
 ## 10.254.1.0/24
 
-VLAN 10
+VLAN 101
 
 * Static leases for IoT
 
 ## 10.254.2.0/24
 
-VLAN 10
+VLAN 102
 
 * Static leases for games
 
@@ -137,7 +133,7 @@ VLAN 10
 ## 10.254.128.0/17
 ## 10.255.0.0/24
 
-VLAN 10
+VLAN 200
 
 * Guest wifi
 
