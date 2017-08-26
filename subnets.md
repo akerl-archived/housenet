@@ -11,13 +11,12 @@ VLAN 1 / untagged
 * 10.0.0.1 - edge - unifi SG
 * 10.0.0.2 - switch1 - cisco 2960G
 * 10.0.0.3 - wap1 - unifi ap ac pro
-* 10.0.0.10 - controller - tower
 
 ## 10.0.1.0/24
 
 VLAN 2
 
-* 10.0.1.2 - infra - rpi3
+* 10.0.1.10 - infra - rpi3
 
 ## 10.0.2.0/24
 ## 10.0.3.0/24
