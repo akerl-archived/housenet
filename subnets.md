@@ -11,6 +11,7 @@ VLAN 1 / Core
 * 10.0.0.1 - edge - unifi SG
 * 10.0.0.2 - switch1 - cisco 2960G
 * 10.0.0.3 - wap1 - unifi ap ac pro
+* 10.0.0.4 - pan1 - pa-200
 
 ## 10.0.1.0/24
 ## 10.0.2.0/24
@@ -18,10 +19,11 @@ VLAN 1 / Core
 VLAN 2 / Infra
 
 * 10.0.2.10 - infra - rpi3
+* 10.0.2.20 - mini - mba
 
 ## 10.0.3.0/24
 
-VLAN 3 / IPMI
+VLAN 3 / Management
 
 * 10.0.3.11 - alpa-ipmi
 * 10.0.3.12 - bravo-ipmi
